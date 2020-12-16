@@ -1,0 +1,285 @@
+body {
+    max-width: 100%;
+    padding-left: 190px;
+    padding-right: 190px;        
+    font-size: 10px;
+}
+h1 img {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.h1 img a:hover {
+    color: grey;
+}
+.topbar {
+    overflow: hidden;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgb(233, 227, 227);
+    border-width: 1px;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 3px;
+    font-size: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.topbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topbar a:hover {
+    color: rgb(160, 192, 111);
+}
+.topbar input[type=text] {
+    font-family: 'Source Sans Pro';
+    letter-spacing: 3px;
+    float: right;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+}
+.fa {
+    text-decoration: none;
+    width: 1px;
+}
+.contact {
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid rgb(236,230,230);
+    border-bottom: 1px solid rgb(236,230,230);
+    background-color: rgb(236, 230, 230);
+    border-radius: 20px;
+}
+.free {
+    padding: 20px;
+}
+.one {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.one input[type=text] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+}
+.two {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.two input[type=email] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+}
+.three {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.three input[type=text] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+}
+.four {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.four input[type=password] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+}
+.five {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.five input[type=radio] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 10px;
+    letter-spacing: 3px;
+}
+.six {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.select {
+    padding: 8px 15px;
+    color: rgb(82, 79, 79);
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 3px;
+    background-color: #d1cbcb;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.select:hover {
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+.select option {
+    background-color: #bbbbbb;
+}
+.seven {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.add {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+}
+.eight {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.eight input[type=checkbox] {
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 10px;
+    letter-spacing: 3px;
+}
+.nine {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    padding-top: 10px;
+    line-height: 1px;
+    font-size: 13px;
+}
+.nine input[type=submit] {
+    float: left;
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 40%;
+    letter-spacing: 3px;
+}
+.nine input[type=reset] {
+    float: right;
+    font-family: 'Source Sans Pro';
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+    color: rgb(82, 79, 79);
+    text-align: center;
+    width: 40%;
+    letter-spacing: 3px;
+}
+.lynn {
+    width: 100%;
+    right: -3%;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    position: absolute; 
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(236, 230, 230);
+    color:black;
+    padding: 100px 50px;
+}
+.about {
+    margin-top: 10px;
+    font-family: 'Source Sans Pro';
+}

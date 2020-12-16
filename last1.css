@@ -1,0 +1,463 @@
+body {
+    max-width: 100%;
+    padding-left: 190px;
+    padding-right: 190px;        
+    font-size: 10px;
+}
+h1 img {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.h1 img a:hover {
+    color: grey;
+}
+.topbar {
+    overflow: hidden;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgb(233, 227, 227);
+    border-width: 1px;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 3px;
+    font-size: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.topbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topbar a:hover {
+    color: rgb(160, 192, 111);
+}
+.topbar input[type=text] {
+    font-family: 'Source Sans Pro';
+    letter-spacing: 3px;
+    float: right;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(233, 227, 227);
+    font-size: 13px;
+}
+.fa {
+    text-decoration: none;
+    width: 1px;
+}
+.breakfast {
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 2%;
+}.food2 {
+    float: left;
+    width: 30%;
+}
+.foods2 img {
+    position: absolute;
+    top: 50%;
+    right: 945px;
+    height: 390px; 
+}
+.plant{
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 200px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: -82%;
+    color: rgb(82, 79, 79); 
+}
+.food3 {
+    float: right;
+    width: 30%;
+}
+.foods3 img {
+    position: absolute;
+    top: 50%;
+    right: 640px;
+    height: 390px; 
+}
+.gluten {
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 505px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: -82%;
+    color: rgb(82, 79, 79); 
+}
+.readmore {
+    width: 60%;
+    float: left;
+}
+.readmore a {
+    background-color: rgb(216, 212, 212);
+    color:  rgb(160, 192, 111);
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80%;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 2px;
+} 
+.readmore a:hover {
+    background-color: white;
+    color: black;
+}
+.food4 {
+    float: right;
+    width: 30%;
+}
+.foods4 img {
+    position: absolute;
+    top: 42%;
+    left: 62%;
+    height: 300px; 
+}
+.hi {
+    width: 21%;
+    float: right;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: rgb(82, 79, 79);
+    position: absolute;
+    left: 62%;
+    margin-top: 24%;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgb(233, 227, 227);
+    border-width: 1px;
+}
+.everyone {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.welcome {
+    color: rgb(82, 79, 79);
+    margin-bottom: 10%;
+    font-size: 13px;
+    line-height: 22px;
+}
+.salad {
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}.salad1 {
+    float: left;
+    width: 30%;
+}
+.salads1 img {
+    position: absolute;
+    top: 130%;
+    right: 945px;
+    height: 390px; 
+}
+.summer{
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 200px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: -38%;
+    color: rgb(82, 79, 79); 
+}
+.salad2 {
+    float: right;
+    width: 30%;
+}
+.salads2 img {
+    position: absolute;
+    top: 130%;
+    right: 640px;
+    height: 390px; 
+}
+.min {
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 505px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: -38%;
+    color: rgb(82, 79, 79); 
+}
+.see {
+    width: 60%;
+    float: left;
+}
+.see a {
+    background-color: rgb(216, 212, 212);
+    color:  rgb(160, 192, 111);
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80%;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 2px;
+} 
+.see a:hover {
+    background-color: white;
+    color: black;
+}
+.newsletter {
+    width: 18%;
+    float: right;
+    font-size: 13px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: rgb(82, 79, 79);
+    position: absolute;
+    left: 62%;
+    margin-top: 57%;
+    border-style: solid ;
+    background-color: rgb(236, 230, 230);
+    border-color: rgb(236,230,230);
+    border-width: 1px;
+    padding: 20px;
+}
+.news {
+    font-family: 'Bree Serif';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.signup {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+.email {
+    border-style: solid;
+    border-color: rgb(236, 230, 230);
+    font-family: 'Source Sans Pro';
+    width: 240px;
+    padding: 5px 5px;
+}
+.sign {
+    border-style: solid;
+    border-color: grey;
+    background-color: grey;
+    width: 240px;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.sign a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sign a:hover {
+    color: black;
+}
+.popular {
+    width: 21%;
+    float: right;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: rgb(82, 79, 79);
+    position: absolute;
+    left: 62%;
+    margin-top: 77%;
+    text-align: center;
+}
+.food5 {
+    float: right;
+    width: 30%;
+}
+.foods5 img {
+    position: absolute;
+    top: 189%;
+    left: 62%;
+    height: 400px; 
+}
+.book {
+    width: 21%;
+    float: right;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 62%;
+    margin-top: 109%;
+    text-align: left;
+}
+.book a {
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+}
+.book a:hover {
+    color: rgb(160, 192, 111);
+}
+.food8 {
+    float: right;
+    width: 30%;
+}
+.foods8 img {
+    position: absolute;
+    top: 250%;
+    left: 62%;
+    height: 400px; 
+}
+.cauli {
+    width: 21%;
+    float: right;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 62%;
+    margin-top: 142%;
+    text-align: left;
+}
+.cauli a {
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+}
+.cauli a:hover {
+    color: rgb(160, 192, 111);
+}
+.main {
+    font-family: 'Bree Serif';
+    font-size: 13px;
+    width: 60%;
+    float: left;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}.main1 {
+    float: left;
+    width: 30%;
+}
+.mains1 img {
+    position: absolute;
+    top: 212%;
+    right: 945px;
+    height: 390px; 
+}
+.strawberry{
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 200px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    color: rgb(82, 79, 79); 
+}
+.main2 {
+    float: right;
+    width: 30%;
+}
+.mains2 img {
+    position: absolute;
+    top: 212%;
+    right: 640px;
+    height: 390px; 
+}
+.tamari {
+    float: left;
+    width: 30%;
+    position: absolute;
+    top: 252%;
+    left: 505px;
+    height: 390px;
+    font-size: 13px;
+    font-family: 'Merriweather';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    color: rgb(82, 79, 79); 
+}
+.more {
+    width: 60%;
+    float: left;
+}
+.more a {
+    background-color: rgb(216, 212, 212);
+    color:  rgb(160, 192, 111);
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 80%;
+    font-family: 'Source Sans Pro';
+    letter-spacing: 2px;
+} 
+.more a:hover {
+    background-color: white;
+    color: black;
+}
+.lynn {
+    width: 100%;
+    right: -3%;
+    font-size: 13px;
+    font-family: 'Bree Serif';
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    position: absolute; 
+    margin-top: 170%;
+    text-align: center;
+    background-color: rgb(236, 230, 230);
+    color:black;
+    padding: 100px 50px;
+}
+.about {
+    margin-top: 10px;
+    font-family: 'Source Sans Pro';
+}
